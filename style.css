@@ -42,12 +42,16 @@ nav .container {
     justify-content: space-between;
     align-items: center;
     z-index: 99;
+    -webkit-transform: translate3d(0,0,1px);
+    transform: translate3d(0,0,1px);
 }
 
 nav .container i {
     color: #fff;
     font-size: 35px;
     transition: ease 500ms;
+    -webkit-transform: translate3d(0,0,1px);
+    transform: translate3d(0,0,1px);
 }
 
 nav .container i:hover {
